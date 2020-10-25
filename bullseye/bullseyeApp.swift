@@ -11,7 +11,9 @@ import SwiftUI
 struct bullseyeApp: App {
     var body: some Scene {
         WindowGroup {
+          NavigationView {
             ContentView()
+          }.navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
